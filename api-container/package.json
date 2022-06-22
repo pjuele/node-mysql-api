@@ -1,0 +1,25 @@
+{
+  "name": "node-mysql-api",
+  "version": "1.0.0",
+  "description": "A generic API to use as a template.",
+  "scripts": {
+    "start": "node api.server.js",
+    "test": "node api.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi",
+    "pjuele",
+    "wdpj"
+  ],
+  "author": "Pablo Juele",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
